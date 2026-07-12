@@ -7,7 +7,7 @@ out="_site"
 rm -rf "$out"
 mkdir -p "$out/posts"
 
-cp index.html profile_pic.jpg CNAME "$out/"
+cp index.html CNAME "$out/"
 
 entries=""
 for f in posts/*.md; do
